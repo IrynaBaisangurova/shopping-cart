@@ -1,0 +1,19 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaBaisangurova/shopping-cart.git"
+  },
+  "author": "Iryna Baisanhurova <laudaeren@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaBaisangurova/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/IrynaBaisangurova/shopping-cart#readme",
+  "description": ""
+}
