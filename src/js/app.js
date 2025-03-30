@@ -20,7 +20,7 @@ close.addEventListener('click', function (){
 
 let products = null;
 // get data from file json
-fetch('product.json')
+fetch('/src/product.json')
     .then(response => response.json())
     .then(data => {
         products = data;
@@ -100,7 +100,7 @@ function addCartToHTML(){
                     `<img src="${product.image}">
                     <div class="content">
                         <div class="name">${product.name}</div>
-                        <div class="price">$${product.price} / 1 product</div>
+                        <div class="price">₴${product.price} / 1 ${product.unit}</div>
                     </div>
                     <div class="quantity">
                         <button onclick="changeQuantity(${product.id}, '-')">-</button>
